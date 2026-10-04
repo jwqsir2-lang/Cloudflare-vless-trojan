@@ -23,13 +23,13 @@ let IP12 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u002e\u0063\u006f\u
 let IP13 = '\u0077\u0077\u0077\u002e\u0076\u0069\u0073\u0061\u0073\u006f\u0075\u0074\u0068\u0065\u0061\u0073\u0074\u0065\u0075\u0072\u006f\u0070\u0065\u002e\u0063\u006f\u006d'
 
 // http_port
-let PT1 = '80'
-let PT2 = '8080'
-let PT3 = '8880'
-let PT4 = '2052'
-let PT5 = '2082'
-let PT6 = '2086'
-let PT7 = '2095'
+let PT1 = '2053'
+let PT2 = '2083'
+let PT3 = '2087'
+let PT4 = '2096'
+let PT5 = '443'
+let PT6 = '8443'
+let PT7 = '2053'
 
 // https_port
 let PT8 = '443'
@@ -530,7 +530,7 @@ function safeCloseWebSocket(socket) {
 export { worker_default as default };
 //# sourceMappingURL=worker.js.map
 function getygkkkConfig(Pswd, hostName) {
-  const w\u0074\u0072\u006F\u006A\u0061\u006Ews = atob(btoa(`\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}@${CDNIP}:8880?security=none&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#${hostName}`));
+  const w\u0074\u0072\u006F\u006A\u0061\u006Ews = atob(btoa(`\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}@${CDNIP}:8443?security=tls&type=ws&host=${hostName}&sni=${hostName}&fp=random&path=%2F%3Fed%3D2560#${hostName}`));
   const p\u0074\u0072\u006F\u006A\u0061\u006Ewstls = atob(btoa(`\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}@${CDNIP}:8443?security=tls&type=ws&host=${hostName}&sni=${hostName}&fp=random&path=%2F%3Fed%3D2560#${hostName}`));
   const note = `甬哥博客地址：https://ygkkk.blogspot.com\n甬哥YouTube频道：https://www.youtube.com/@ygkkk\n甬哥TG电报群组：https://t.me/ygkkktg\n甬哥TG电报频道：https://t.me/ygkkktgpd\n\nProxyIP全局运行中：${proxyIP}:${proxyPort}`;
   const ty = `https://${hostName}/${Pswd}/ty`
@@ -540,7 +540,7 @@ function getygkkkConfig(Pswd, hostName) {
   const pcl = `https://${hostName}/${Pswd}/pcl`
   const psb = `https://${hostName}/${Pswd}/psb`
 
-  const wk\u0074\u0072\u006F\u006A\u0061\u006Eshare = btoa(`\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP1}:${PT1}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T1_${IP1}_${PT1}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP2}:${PT2}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T2_${IP2}_${PT2}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP3}:${PT3}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T3_${IP3}_${PT3}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP4}:${PT4}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T4_${IP4}_${PT4}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP5}:${PT5}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T5_${IP5}_${PT5}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP6}:${PT6}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T6_${IP6}_${PT6}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP7}:${PT7}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T7_${IP7}_${PT7}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP8}:${PT8}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T8_${IP8}_${PT8}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP9}:${PT9}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T9_${IP9}_${PT9}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP10}:${PT10}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T10_${IP10}_${PT10}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP11}:${PT11}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T11_${IP11}_${PT11}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP12}:${PT12}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T12_${IP12}_${PT12}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP13}:${PT13}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T13_${IP13}_${PT13}`);
+  const wk\u0074\u0072\u006F\u006A\u0061\u006Eshare = btoa(`\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP1}:${PT1}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T1_${IP1}_${PT1}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP2}:${PT2}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T2_${IP2}_${PT2}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP3}:${PT3}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T3_${IP3}_${PT3}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP4}:${PT4}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T4_${IP4}_${PT4}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP5}:${PT5}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T5_${IP5}_${PT5}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP6}:${PT6}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T6_${IP6}_${PT6}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP7}:${PT7}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T7_${IP7}_${PT7}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP8}:${PT8}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T8_${IP8}_${PT8}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP9}:${PT9}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T9_${IP9}_${PT9}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP10}:${PT10}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T10_${IP10}_${PT10}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP11}:${PT11}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T11_${IP11}_${PT11}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP12}:${PT12}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T12_${IP12}_${PT12}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP13}:${PT13}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T13_${IP13}_${PT13}`);
 	
   const pg\u0074\u0072\u006F\u006A\u0061\u006Eshare = btoa(`\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP8}:${PT8}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T8_${IP8}_${PT8}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP9}:${PT9}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T9_${IP9}_${PT9}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP10}:${PT10}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T10_${IP10}_${PT10}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP11}:${PT11}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T11_${IP11}_${PT11}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP12}:${PT12}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T12_${IP12}_${PT12}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP13}:${PT13}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T13_${IP13}_${PT13}`);
 	
@@ -840,7 +840,7 @@ ${displayHtml}
 }
 
 function gettyConfig(Pswd, hostName) {
-  const \u0074\u0072\u006F\u006A\u0061\u006Eshare = btoa(`\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP1}:${PT1}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T1_${IP1}_${PT1}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP2}:${PT2}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T2_${IP2}_${PT2}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP3}:${PT3}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T3_${IP3}_${PT3}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP4}:${PT4}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T4_${IP4}_${PT4}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP5}:${PT5}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T5_${IP5}_${PT5}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP6}:${PT6}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T6_${IP6}_${PT6}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP7}:${PT7}?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T7_${IP7}_${PT7}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP8}:${PT8}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T8_${IP8}_${PT8}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP9}:${PT9}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T9_${IP9}_${PT9}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP10}:${PT10}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T10_${IP10}_${PT10}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP11}:${PT11}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T11_${IP11}_${PT11}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP12}:${PT12}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T12_${IP12}_${PT12}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP13}:${PT13}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T13_${IP13}_${PT13}`);
+  const \u0074\u0072\u006F\u006A\u0061\u006Eshare = btoa(`\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP1}:${PT1}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T1_${IP1}_${PT1}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP2}:${PT2}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T2_${IP2}_${PT2}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP3}:${PT3}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T3_${IP3}_${PT3}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP4}:${PT4}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T4_${IP4}_${PT4}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP5}:${PT5}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T5_${IP5}_${PT5}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP6}:${PT6}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T6_${IP6}_${PT6}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP7}:${PT7}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T7_${IP7}_${PT7}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP8}:${PT8}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T8_${IP8}_${PT8}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP9}:${PT9}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T9_${IP9}_${PT9}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP10}:${PT10}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T10_${IP10}_${PT10}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP11}:${PT11}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T11_${IP11}_${PT11}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP12}:${PT12}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T12_${IP12}_${PT12}\n\u0074\u0072\u006F\u006A\u0061\u006E://${Pswd}\u0040${IP13}:${PT13}?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#CF_T13_${IP13}_${PT13}`);
   return `${\u0074\u0072\u006F\u006A\u0061\u006Eshare}`
 }
 
@@ -875,6 +875,90 @@ dns:
       - 240.0.0.0/4
 
 proxies:
+- name: CF_T1_${IP1}_${PT1}
+  type: \u0074\u0072\u006F\u006A\u0061\u006E
+  server: ${IP1.replace(/[\[\]]/g, '')}
+  port: ${PT1}
+  password: ${Pswd}
+  udp: false
+  sni: ${hostName}
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+- name: CF_T2_${IP2}_${PT2}
+  type: \u0074\u0072\u006F\u006A\u0061\u006E
+  server: ${IP2.replace(/[\[\]]/g, '')}
+  port: ${PT2}
+  password: ${Pswd}
+  udp: false
+  sni: ${hostName}
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+- name: CF_T3_${IP3}_${PT3}
+  type: \u0074\u0072\u006F\u006A\u0061\u006E
+  server: ${IP3.replace(/[\[\]]/g, '')}
+  port: ${PT3}
+  password: ${Pswd}
+  udp: false
+  sni: ${hostName}
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+- name: CF_T4_${IP4}_${PT4}
+  type: \u0074\u0072\u006F\u006A\u0061\u006E
+  server: ${IP4.replace(/[\[\]]/g, '')}
+  port: ${PT4}
+  password: ${Pswd}
+  udp: false
+  sni: ${hostName}
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+- name: CF_T5_${IP5}_${PT5}
+  type: \u0074\u0072\u006F\u006A\u0061\u006E
+  server: ${IP5.replace(/[\[\]]/g, '')}
+  port: ${PT5}
+  password: ${Pswd}
+  udp: false
+  sni: ${hostName}
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+- name: CF_T6_${IP6}_${PT6}
+  type: \u0074\u0072\u006F\u006A\u0061\u006E
+  server: ${IP6.replace(/[\[\]]/g, '')}
+  port: ${PT6}
+  password: ${Pswd}
+  udp: false
+  sni: ${hostName}
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+- name: CF_T7_${IP7}_${PT7}
+  type: \u0074\u0072\u006F\u006A\u0061\u006E
+  server: ${IP7.replace(/[\[\]]/g, '')}
+  port: ${PT7}
+  password: ${Pswd}
+  udp: false
+  sni: ${hostName}
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
 - name: CF_T8_${IP8}_${PT8}
   type: \u0074\u0072\u006F\u006A\u0061\u006E
   server: ${IP8.replace(/[\[\]]/g, '')}
@@ -965,6 +1049,13 @@ proxy-groups:
     - CF_T11_${IP11}_${PT11}
     - CF_T12_${IP12}_${PT12}
     - CF_T13_${IP13}_${PT13}
+    - CF_T1_${IP1}_${PT1}
+    - CF_T2_${IP2}_${PT2}
+    - CF_T3_${IP3}_${PT3}
+    - CF_T4_${IP4}_${PT4}
+    - CF_T5_${IP5}_${PT5}
+    - CF_T6_${IP6}_${PT6}
+    - CF_T7_${IP7}_${PT7}
 
 - name: 自动选择
   type: url-test
@@ -978,6 +1069,13 @@ proxy-groups:
     - CF_T11_${IP11}_${PT11}
     - CF_T12_${IP12}_${PT12}
     - CF_T13_${IP13}_${PT13}
+    - CF_T1_${IP1}_${PT1}
+    - CF_T2_${IP2}_${PT2}
+    - CF_T3_${IP3}_${PT3}
+    - CF_T4_${IP4}_${PT4}
+    - CF_T5_${IP5}_${PT5}
+    - CF_T6_${IP6}_${PT6}
+    - CF_T7_${IP7}_${PT7}
 
 - name: 🌍选择代理
   type: select
@@ -991,6 +1089,13 @@ proxy-groups:
     - CF_T11_${IP11}_${PT11}
     - CF_T12_${IP12}_${PT12}
     - CF_T13_${IP13}_${PT13}
+    - CF_T1_${IP1}_${PT1}
+    - CF_T2_${IP2}_${PT2}
+    - CF_T3_${IP3}_${PT3}
+    - CF_T4_${IP4}_${PT4}
+    - CF_T5_${IP5}_${PT5}
+    - CF_T6_${IP6}_${PT6}
+    - CF_T7_${IP7}_${PT7}
 
 rules:
   - GEOIP,LAN,DIRECT
@@ -1126,6 +1231,15 @@ return `{
         "path": "/?ed=2560",
         "type": "ws"
         },
+        "tls": {
+          "enabled": true,
+          "server_name": "${hostName}",
+          "insecure": false,
+          "utls": {
+            "enabled": true,
+            "fingerprint": "chrome"
+          }
+        },
         "type": "\u0074\u0072\u006F\u006A\u0061\u006E",
         "password": "${Pswd}"
       },
@@ -1141,6 +1255,15 @@ return `{
         },
         "path": "/?ed=2560",
         "type": "ws"
+        },
+        "tls": {
+          "enabled": true,
+          "server_name": "${hostName}",
+          "insecure": false,
+          "utls": {
+            "enabled": true,
+            "fingerprint": "chrome"
+          }
         },
         "type": "\u0074\u0072\u006F\u006A\u0061\u006E",
         "password": "${Pswd}"
@@ -1158,6 +1281,15 @@ return `{
         "path": "/?ed=2560",
         "type": "ws"
         },
+        "tls": {
+          "enabled": true,
+          "server_name": "${hostName}",
+          "insecure": false,
+          "utls": {
+            "enabled": true,
+            "fingerprint": "chrome"
+          }
+        },
         "type": "\u0074\u0072\u006F\u006A\u0061\u006E",
         "password": "${Pswd}"
       },
@@ -1173,6 +1305,15 @@ return `{
         },
         "path": "/?ed=2560",
         "type": "ws"
+        },
+        "tls": {
+          "enabled": true,
+          "server_name": "${hostName}",
+          "insecure": false,
+          "utls": {
+            "enabled": true,
+            "fingerprint": "chrome"
+          }
         },
         "type": "\u0074\u0072\u006F\u006A\u0061\u006E",
         "password": "${Pswd}"
@@ -1190,6 +1331,15 @@ return `{
         "path": "/?ed=2560",
         "type": "ws"
         },
+        "tls": {
+          "enabled": true,
+          "server_name": "${hostName}",
+          "insecure": false,
+          "utls": {
+            "enabled": true,
+            "fingerprint": "chrome"
+          }
+        },
         "type": "\u0074\u0072\u006F\u006A\u0061\u006E",
         "password": "${Pswd}"
       },
@@ -1206,6 +1356,15 @@ return `{
         "path": "/?ed=2560",
         "type": "ws"
         },
+        "tls": {
+          "enabled": true,
+          "server_name": "${hostName}",
+          "insecure": false,
+          "utls": {
+            "enabled": true,
+            "fingerprint": "chrome"
+          }
+        },
         "type": "\u0074\u0072\u006F\u006A\u0061\u006E",
         "password": "${Pswd}"
       },
@@ -1221,6 +1380,15 @@ return `{
         },
         "path": "/?ed=2560",
         "type": "ws"
+        },
+        "tls": {
+          "enabled": true,
+          "server_name": "${hostName}",
+          "insecure": false,
+          "utls": {
+            "enabled": true,
+            "fingerprint": "chrome"
+          }
         },
         "type": "\u0074\u0072\u006F\u006A\u0061\u006E",
         "password": "${Pswd}"
@@ -1518,6 +1686,90 @@ dns:
       - 240.0.0.0/4
 
 proxies:
+- name: CF_T1_${IP1}_${PT1}
+  type: \u0074\u0072\u006F\u006A\u0061\u006E
+  server: ${IP1.replace(/[\[\]]/g, '')}
+  port: ${PT1}
+  password: ${Pswd}
+  udp: false
+  sni: ${hostName}
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+- name: CF_T2_${IP2}_${PT2}
+  type: \u0074\u0072\u006F\u006A\u0061\u006E
+  server: ${IP2.replace(/[\[\]]/g, '')}
+  port: ${PT2}
+  password: ${Pswd}
+  udp: false
+  sni: ${hostName}
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+- name: CF_T3_${IP3}_${PT3}
+  type: \u0074\u0072\u006F\u006A\u0061\u006E
+  server: ${IP3.replace(/[\[\]]/g, '')}
+  port: ${PT3}
+  password: ${Pswd}
+  udp: false
+  sni: ${hostName}
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+- name: CF_T4_${IP4}_${PT4}
+  type: \u0074\u0072\u006F\u006A\u0061\u006E
+  server: ${IP4.replace(/[\[\]]/g, '')}
+  port: ${PT4}
+  password: ${Pswd}
+  udp: false
+  sni: ${hostName}
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+- name: CF_T5_${IP5}_${PT5}
+  type: \u0074\u0072\u006F\u006A\u0061\u006E
+  server: ${IP5.replace(/[\[\]]/g, '')}
+  port: ${PT5}
+  password: ${Pswd}
+  udp: false
+  sni: ${hostName}
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+- name: CF_T6_${IP6}_${PT6}
+  type: \u0074\u0072\u006F\u006A\u0061\u006E
+  server: ${IP6.replace(/[\[\]]/g, '')}
+  port: ${PT6}
+  password: ${Pswd}
+  udp: false
+  sni: ${hostName}
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
+- name: CF_T7_${IP7}_${PT7}
+  type: \u0074\u0072\u006F\u006A\u0061\u006E
+  server: ${IP7.replace(/[\[\]]/g, '')}
+  port: ${PT7}
+  password: ${Pswd}
+  udp: false
+  sni: ${hostName}
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: ${hostName}
 - name: CF_T8_${IP8}_${PT8}
   type: \u0074\u0072\u006F\u006A\u0061\u006E
   server: ${IP8.replace(/[\[\]]/g, '')}
@@ -1608,6 +1860,13 @@ proxy-groups:
     - CF_T11_${IP11}_${PT11}
     - CF_T12_${IP12}_${PT12}
     - CF_T13_${IP13}_${PT13}
+    - CF_T1_${IP1}_${PT1}
+    - CF_T2_${IP2}_${PT2}
+    - CF_T3_${IP3}_${PT3}
+    - CF_T4_${IP4}_${PT4}
+    - CF_T5_${IP5}_${PT5}
+    - CF_T6_${IP6}_${PT6}
+    - CF_T7_${IP7}_${PT7}
 
 - name: 自动选择
   type: url-test
@@ -1621,6 +1880,13 @@ proxy-groups:
     - CF_T11_${IP11}_${PT11}
     - CF_T12_${IP12}_${PT12}
     - CF_T13_${IP13}_${PT13}
+    - CF_T1_${IP1}_${PT1}
+    - CF_T2_${IP2}_${PT2}
+    - CF_T3_${IP3}_${PT3}
+    - CF_T4_${IP4}_${PT4}
+    - CF_T5_${IP5}_${PT5}
+    - CF_T6_${IP6}_${PT6}
+    - CF_T7_${IP7}_${PT7}
 
 - name: 🌍选择代理
   type: select
@@ -1634,6 +1900,13 @@ proxy-groups:
     - CF_T11_${IP11}_${PT11}
     - CF_T12_${IP12}_${PT12}
     - CF_T13_${IP13}_${PT13}
+    - CF_T1_${IP1}_${PT1}
+    - CF_T2_${IP2}_${PT2}
+    - CF_T3_${IP3}_${PT3}
+    - CF_T4_${IP4}_${PT4}
+    - CF_T5_${IP5}_${PT5}
+    - CF_T6_${IP6}_${PT6}
+    - CF_T7_${IP7}_${PT7}
 
 rules:
   - GEOIP,LAN,DIRECT
